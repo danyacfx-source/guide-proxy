@@ -29,6 +29,44 @@ async def health():
     return {"ok": True, "static": STATIC_DIR.exists()}
 
 
+UPSTREAM = "https://wardogs.zone"
+
+
+@app.api_route("/api/{path:path}", methods=["GET", "POST", "HEAD", "PUT", "DELETE"])
+async def api_proxy(path: str, request: Request):
+    """Client pages fetch live JSON/thumbs from the original site — proxy them."""
+    import aiohttp
+
+    url = f"{UPSTREAM}/api/{path}"
+    if request.url.query:
+        url = f"{url}?{request.url.query}"
+
+    headers = {
+        "User-Agent": request.headers.get("user-agent", "Mozilla/5.0"),
+        "Accept": request.headers.get("accept", "*/*"),
+        "Accept-Language": request.headers.get("accept-language", "ru-RU,ru;q=0.9"),
+        "Referer": f"{UPSTREAM}/ru/",
+    }
+    body = await request.body() if request.method in ("POST", "PUT") else None
+    if body:
+        headers["Content-Type"] = request.headers.get("content-type", "application/json")
+
+    timeout = aiohttp.ClientTimeout(total=20)
+    try:
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            async with session.request(request.method, url, headers=headers, data=body, ssl=True) as resp:
+                data = await resp.read()
+                ct = resp.headers.get("content-type", "application/json")
+                return Response(
+                    data,
+                    status_code=resp.status,
+                    media_type=ct.split(";")[0],
+                    headers={"Cache-Control": "public, max-age=300"} if resp.status == 200 else None,
+                )
+    except Exception:
+        return Response("upstream unavailable", status_code=502)
+
+
 @app.get("/_next/image")
 async def next_image(url: str, w: int | None = None, q: int | None = None):
     """Next.js image optimizer is gone on a static mirror — serve the raw file."""

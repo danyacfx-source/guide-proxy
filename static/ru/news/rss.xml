@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wardogs Zone · Новости и гайды</title>
+    <link>https://wardogs.zone/ru/news</link>
+    <atom:link href="https://wardogs.zone/ru/news/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Новости WARDOGS, гайды по мете и разбор патчей от Wardogs Zone.</description>
+    <language>ru</language>
+    <lastBuildDate>Mon, 07 Sep 2026 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>У Wardogs Zone появился свой сервер, и он откроется в день запуска</title>
+      <link>https://wardogs.zone/ru/news/community-server</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/community-server</guid>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+      <category>Сообщество</category>
+      <description>Wardogs Zone EU #1, сервер сообщества WARDOGS на 100 игроков в Германии, открывается в 16:00 UTC 10 сентября 2026 г. Адрес, настройки и как подключиться.</description>
+    </item>
+    <item>
+      <title>WARDOGS открывается в четверг в 16:00 UTC: обратный отсчёт до Early Access</title>
+      <link>https://wardogs.zone/ru/news/early-access-unlock-time</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/early-access-unlock-time</guid>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+      <category>Новости игры</category>
+      <description>WARDOGS Early Access открывается в Steam в четверг, 10 сентября 2026 г., в 16:00 UTC (17:00 UK, 18:00 CEST, 12:00 ET, 09:00 PT). Живой обратный отсчёт и время по городам.</description>
+    </item>
+    <item>
+      <title>WARDOGS Early Access: время выхода, цена и что входит</title>
+      <link>https://wardogs.zone/ru/news/early-access-launch</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/early-access-launch</guid>
+      <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Новости игры</category>
+      <description>WARDOGS выходит в Early Access в Steam 10 сентября 2026 г. в 16:00 UTC, за $39.99, с изданием Supporter Edition за $49.99. Что входит в релиз и наше мнение о покупке в первый день.</description>
+    </item>
+    <item>
+      <title>The FPS Games Show: шестнадцать шутеров и анонс WARDOGS</title>
+      <link>https://wardogs.zone/ru/news/fps-games-show-2026</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/fps-games-show-2026</guid>
+      <pubDate>Mon, 24 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Новости игры</category>
+      <description>The FPS Games Show выйдет в эфир на Twitch в 19:00 BST 3 сентября 2026 г. В программе шестнадцать шутеров, и BULKHEAD готовит для него анонс WARDOGS.</description>
+    </item>
+    <item>
+      <title>Как вызывать артиллерию в WARDOGS</title>
+      <link>https://wardogs.zone/ru/news/how-to-call-artillery</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/how-to-call-artillery</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Разбор артиллерийского калькулятора WARDOGS: азимут, угол подъема, обнаружение и коды трансляции для SPH-2 и L81 Mortar, с реальной дальностью каждого орудия.</description>
+    </item>
+    <item>
+      <title>Стандартные, бронебойные или экспансивные: какие патроны покупать</title>
+      <link>https://wardogs.zone/ru/news/which-ammo-to-buy</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/which-ammo-to-buy</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Экспансивные патроны удваивают урон, а потом резко теряют эффективность против брони. Бронебойные теряют меньше всего, когда защита в деле. Что делает каждый патрон WARDOGS, с количеством попаданий до убийства.</description>
+    </item>
+    <item>
+      <title>Как работает броня в WARDOGS, и где она не работает</title>
+      <link>https://wardogs.zone/ru/news/how-armor-works</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/how-armor-works</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Броня с 1-го по 4-й уровень блокирует 30, 40, 55 и 65 процентов, и только там, где стоит пластина. Зоны, которые остаются открытыми у любого жилета, и чем это оборачивается для того, кто его носит.</description>
+    </item>
+    <item>
+      <title>АК-74 против М4: какую винтовку купить на самом деле</title>
+      <link>https://wardogs.zone/ru/news/ak74-vs-m4</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/ak74-vs-m4</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>М4 убивает быстрее на бумаге и стоит на $1 200 дороже. АК-74 пристреливается до 1 000 метров. Полное сравнение WARDOGS по всем уровням брони и всем типам патронов.</description>
+    </item>
+    <item>
+      <title>Как потратить свои первые $10 000</title>
+      <link>https://wardogs.zone/ru/news/first-10000-dollars</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/first-10000-dollars</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Твоя первая выкладка в WARDOGS решает, как пройдёт следующий час. Что мы покупаем на стартовые $10 000, что пропускаем, и две покупки, которые окупают себя сами.</description>
+    </item>
+    <item>
+      <title>Лучшая выкладка на любой бюджет</title>
+      <link>https://wardogs.zone/ru/news/best-loadout-every-budget</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/best-loadout-every-budget</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Три полные выкладки WARDOGS, просчитанные до доллара с забитыми рюкзаками: $3 275 для честного боя, $7 105 против брони, $15 320 на дальность.</description>
+    </item>
+    <item>
+      <title>Лучшее оружие в каждом классе</title>
+      <link>https://wardogs.zone/ru/news/best-weapon-every-class</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/best-weapon-every-class</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Самое быстрое оружие в каждом классе WARDOGS, с количеством попаданий за каждым выбором: штурмовые винтовки, пистолеты-пулемёты, марксманские винтовки, снайперские винтовки, дробовики, пистолеты и ручные пулемёты.</description>
+    </item>
+    <item>
+      <title>Какую технику покупать, и для чего на самом деле нужна каждая</title>
+      <link>https://wardogs.zone/ru/news/vehicle-buying-guide</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/vehicle-buying-guide</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Какая техника WARDOGS стоит своих денег, а какая нет. Скорость, запас хода, места и броня для всех двенадцати, от Кодиака до L2A6 и лёгких вертолётов.</description>
+    </item>
+    <item>
+      <title>WARDOGS против Battlefield: что на самом деле играется иначе</title>
+      <link>https://wardogs.zone/ru/news/wardogs-vs-battlefield</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/wardogs-vs-battlefield</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Три команды вместо двух, одна круговая Control Zone вместо цепочки флагов, и денежная экономика, которая остаётся с тобой между матчами. Чем WARDOGS отличается от Battlefield.</description>
+    </item>
+    <item>
+      <title>WARDOGS против Squad: что выбрать тебе</title>
+      <link>https://wardogs.zone/ru/news/wardogs-vs-squad</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/wardogs-vs-squad</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Squad просит час терпения на каждый матч. WARDOGS просит решение о покупке на каждую жизнь. Чем на самом деле различаются эти два околомилсимных шутера.</description>
+    </item>
+    <item>
+      <title>Самые быстрые способы заработать в WARDOGS</title>
+      <link>https://wardogs.zone/ru/news/best-early-game-money</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/best-early-game-money</guid>
+      <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Каждая выплата в WARDOGS проходит через один и тот же множитель. Сколько на самом деле платят за полёты, снайпинг, обнаружение и Транспорт высадки, и в каком порядке за ними гнаться.</description>
+    </item>
+    <item>
+      <title>Закрытая бета WARDOGS: даты, время и как попасть</title>
+      <link>https://wardogs.zone/ru/news/closed-beta-dates-and-access</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/closed-beta-dates-and-access</guid>
+      <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Новости игры</category>
+      <description>Закрытая бета WARDOGS идёт с 17:00 UTC в пятницу, 21 августа, до 02:00 UTC в понедельник, 24 августа 2026 г. Время начала в твоём часовом поясе и два способа попасть внутрь.</description>
+    </item>
+    <item>
+      <title>Лучшее оружие для старта в WARDOGS</title>
+      <link>https://wardogs.zone/ru/news/best-early-game-weapons</link>
+      <guid isPermaLink="true">https://wardogs.zone/ru/news/best-early-game-weapons</guid>
+      <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Гайд по мете</category>
+      <description>Текущая мета WARDOGS отдаёт предпочтение полуавтоматам и пистолетам-пулемётам перед штурмовыми винтовками. Вот пять видов оружия, которые тащат стартовые лобби, с цифрами урона за каждым.</description>
+    </item>
+  </channel>
+</rss>

@@ -9,4 +9,4 @@ COPY main.py .
 
 EXPOSE 8237
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8237", "--server-header", "False"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8237", "--no-server-header"]

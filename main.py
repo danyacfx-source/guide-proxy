@@ -29,6 +29,20 @@ async def health():
     return {"ok": True, "static": STATIC_DIR.exists()}
 
 
+@app.get("/_next/image")
+async def next_image(url: str, w: int | None = None, q: int | None = None):
+    """Next.js image optimizer is gone on a static mirror — serve the raw file."""
+    from urllib.parse import unquote
+
+    target = unquote(url)
+    if not target.startswith("/") or target.startswith("//"):
+        return Response("bad url", status_code=400)
+    candidate = STATIC_DIR / target.lstrip("/")
+    if candidate.is_file():
+        return FileResponse(candidate)
+    return Response("not found", status_code=404)
+
+
 @app.get("/")
 async def root():
     idx = STATIC_DIR / "index.html"
